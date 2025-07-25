@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "ServiceRequest.Fn.App": {
+      "commandName": "Project",
+      "commandLineArgs": "host start --port 7286",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:7286/api/swagger/ui",
+      "environmentVariables": {
+        "AZURE_FUNCTIONS_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
